@@ -3,7 +3,6 @@ package com.userfront.domain;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
-
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,10 +11,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
-
+import javax.persistence.OneToOne;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.userfront.domain.security.Authority;
 import com.userfront.domain.security.UserRole;
@@ -37,6 +35,13 @@ public class User implements UserDetails{
     private String phone;
 
     private boolean enabled=true;
+
+    @OneToOne
+    private PrimaryAccount primaryAccount;
+
+    @OneToOne
+    private SavingsAccount savingsAccount;
+
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JsonIgnore
@@ -106,6 +111,22 @@ public class User implements UserDetails{
         this.password = password;
     }
 
+    public PrimaryAccount getPrimaryAccount() {
+        return primaryAccount;
+    }
+
+    public void setPrimaryAccount(PrimaryAccount primaryAccount) {
+        this.primaryAccount = primaryAccount;
+    }
+
+    public SavingsAccount getSavingsAccount() {
+        return savingsAccount;
+    }
+
+    public void setSavingsAccount(SavingsAccount savingsAccount) {
+        this.savingsAccount = savingsAccount;
+    }
+
     public void setEnabled(boolean enabled) {
         this.enabled = enabled;
     }
@@ -119,7 +140,6 @@ public class User implements UserDetails{
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
-                ", phone='" + phone + '\'' +
                 ", userRoles=" + userRoles +
                 '}';
     }

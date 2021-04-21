@@ -20,6 +20,7 @@ import com.userfront.service.UserServiceImpl.UserSecurityService;
 @EnableGlobalMethodSecurity(prePostEnabled=true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
+
     @Autowired
     private UserSecurityService userSecurityService;
 
@@ -47,7 +48,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests().
-        antMatchers(PUBLIC_MATCHERS).
+                antMatchers(PUBLIC_MATCHERS).
                 permitAll().anyRequest().authenticated();
 
         http
@@ -58,6 +59,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .rememberMe();
     }
+
+
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {

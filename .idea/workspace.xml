@@ -4,14 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b14270ee-a196-4453-9c69-bc1b873be11b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" beforeDir="false" />
+    <list default="true" id="b14270ee-a196-4453-9c69-bc1b873be11b" name="Default Changelist" comment="Authorization and registration, back-end &amp; front-end">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bce9eaf8-d099-4a82-833d-6aadc3c80d8e.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bce9eaf8-d099-4a82-833d-6aadc3c80d8e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userFront.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plan.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/dao/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/security/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/security/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/UserSecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/UserSecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/common/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/UserSecurityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/UserSecurityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/common/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +47,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qsfOy5LwqV15VXDlx4aappfgFz" />
@@ -52,21 +77,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../onlinebank" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.UserFrontApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="userFront.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/userFront/templates/userFront.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <configuration name="UserFrontApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="userFront" />
@@ -75,6 +102,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.userFront.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,8 +117,28 @@
       <option name="presentableId" value="Default" />
       <updated>1617873192528</updated>
       <workItem from="1617873195066" duration="1384000" />
-      <workItem from="1618196203732" duration="5405000" />
+      <workItem from="1618196203732" duration="7051000" />
+      <workItem from="1618208148828" duration="188000" />
+      <workItem from="1618208380301" duration="229000" />
+      <workItem from="1618211014181" duration="3134000" />
+      <workItem from="1618290691207" duration="4569000" />
+      <workItem from="1618995601224" duration="12157000" />
     </task>
+    <task id="LOCAL-00001" summary="Authorization and registration, back-end &amp; front-end">
+      <created>1618206083993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618206083993</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Authorization and registration, back-end &amp; front-end">
+      <created>1618206220074</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618206220074</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,5 +154,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Authorization and registration, back-end &amp; front-end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Authorization and registration, back-end &amp; front-end" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
