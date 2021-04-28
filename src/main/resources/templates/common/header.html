@@ -41,7 +41,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" th:href="@{/userFront}">Home</a>
+                <a class="navbar-brand page-scroll" th:href="@{/userFront}"><b>Home</b></a>
             </div>
 
             <div class="collapse  navbar-collapse navbar-ex1-collapse">
@@ -51,7 +51,7 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accounts <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>My accounts</b> <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a th:href="@{/account/primaryAccount}">Primary</a></li>
                             <li role="separator" class="divider"></li>
@@ -59,28 +59,28 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Transfer <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>Actions</b> <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a th:href="@{/transfer/betweenAccounts}">Between Accounts</a></li>
-                            <li><a th:href="@{/transfer/toSomeoneElse}">To Someone Else</a></li>
+                            <li><a th:href="@{/transfer/betweenAccounts}">Between my accounts</a></li>
+                            <li><a th:href="@{/transfer/toSomeoneElse}">Transfer to recipient</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a th:href="@{/transfer/recipient}">Add/Edit Recipient</a></li>
+                            <li><a th:href="@{/transfer/recipient}">Recipient</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Appointment <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>Appointment</b> <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a th:href="@{/appointment/create}">Schedule an Appointment</a></li>
+                            <li><a th:href="@{/appointment/create}">Make an appointment</a></li>
                         </ul>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Me <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>My Profile</b> <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a th:href="@{/user/profile}">Profile</a></li>
+                            <li><a th:href="@{/user/profile}">Open</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a th:href="@{/logout}">Logout</a></li>
+                            <li><a th:href="@{/logout}">Log-out</a></li>
                         </ul>
                     </li>
                 </ul>

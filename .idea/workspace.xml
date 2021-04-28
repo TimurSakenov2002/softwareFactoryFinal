@@ -4,33 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b14270ee-a196-4453-9c69-bc1b873be11b" name="Default Changelist" comment="Authorization and registration, back-end &amp; front-end">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bce9eaf8-d099-4a82-833d-6aadc3c80d8e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bce9eaf8-d099-4a82-833d-6aadc3c80d8e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" beforeDir="false" />
+    <list default="true" id="b14270ee-a196-4453-9c69-bc1b873be11b" name="Default Changelist" comment="Home page back-end and front-end &amp; logout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/description.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plan.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/controller/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/dao/RoleDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/PrimaryAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/PrimaryAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/SavingsAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/security/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/security/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/AccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/AccountServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/UserSecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/UserSecurityService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/common/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/config/SecurityConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/controller/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/AccountServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/UserSecurityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/UserSecurityService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/common/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userFront.iml" beforeDir="false" afterPath="$PROJECT_DIR$/userFront.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -54,6 +51,14 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1qsfOy5LwqV15VXDlx4aappfgFz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -122,7 +127,12 @@
       <workItem from="1618208380301" duration="229000" />
       <workItem from="1618211014181" duration="3134000" />
       <workItem from="1618290691207" duration="4569000" />
-      <workItem from="1618995601224" duration="12157000" />
+      <workItem from="1618995601224" duration="12310000" />
+      <workItem from="1619009069803" duration="988000" />
+      <workItem from="1619027798615" duration="1542000" />
+      <workItem from="1619081540115" duration="3510000" />
+      <workItem from="1619264132415" duration="31000" />
+      <workItem from="1619599303319" duration="8848000" />
     </task>
     <task id="LOCAL-00001" summary="Authorization and registration, back-end &amp; front-end">
       <created>1618206083993</created>
@@ -138,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618206220074</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Home page back-end and front-end &amp; logout">
+      <created>1619007943381</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619007943381</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +175,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Authorization and registration, back-end &amp; front-end" />
-    <option name="LAST_COMMIT_MESSAGE" value="Authorization and registration, back-end &amp; front-end" />
+    <MESSAGE value="Home page back-end and front-end &amp; logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home page back-end and front-end &amp; logout" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.web.util.NestedServletException" package="org.springframework.web.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
