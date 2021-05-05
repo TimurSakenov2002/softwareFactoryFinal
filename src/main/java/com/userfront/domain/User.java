@@ -2,6 +2,7 @@ package com.userfront.domain;
 
 import java.util.Collection;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -42,6 +43,9 @@ public class User implements UserDetails{
     @OneToOne
     private SavingsAccount savingsAccount;
 
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<Recipient> recipientList;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JsonIgnore
@@ -95,14 +99,6 @@ public class User implements UserDetails{
         this.email = email;
     }
 
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
     public String getPassword() {
         return password;
     }
@@ -141,6 +137,7 @@ public class User implements UserDetails{
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
                 ", phone='" + phone + '\'' +
+                ", recipientList=" + recipientList +
                 ", userRoles=" + userRoles +
                 '}';
     }

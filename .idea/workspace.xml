@@ -4,30 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b14270ee-a196-4453-9c69-bc1b873be11b" name="Default Changelist" comment="Home page back-end and front-end &amp; logout">
+    <list default="true" id="b14270ee-a196-4453-9c69-bc1b873be11b" name="Default Changelist" comment="Transfers, week 5">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2021_18_24_[Default_Changelist]/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2021_18_24_[Default_Changelist]/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2021_18_24_[Default_Changelist]/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2021_18_24_[Default_Changelist]/UserSecurityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2021_18_24_[Default_Changelist]/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2021_18_24_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_04_2021_18_24__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/controller/AccountController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/controller/TransferController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/controller/TransferController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/dao/PrimaryTransactionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/dao/PrimaryTransactionDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/dao/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/dao/SavingsTransactionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/dao/SavingsTransactionDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/PrimaryAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/PrimaryAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/PrimaryTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/PrimaryTransaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/SavingsAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/SavingsTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/SavingsTransaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/security/Authority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/security/Authority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/security/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/security/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/security/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/security/UserRole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/TransactionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/UserSecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/UserSecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/TransactionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/TransactionServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/common/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/domain/SavingsAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/domain/SavingsAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/service/AccountService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/AccountServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/UserSecurityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/UserSecurityService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/common/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userFront.iml" beforeDir="false" afterPath="$PROJECT_DIR$/userFront.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +93,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../onlinebank" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager" selected="Spring Boot.UserFrontApplication">
@@ -132,7 +143,12 @@
       <workItem from="1619027798615" duration="1542000" />
       <workItem from="1619081540115" duration="3510000" />
       <workItem from="1619264132415" duration="31000" />
-      <workItem from="1619599303319" duration="8848000" />
+      <workItem from="1619599303319" duration="8964000" />
+      <workItem from="1619628099479" duration="55000" />
+      <workItem from="1619683520445" duration="2238000" />
+      <workItem from="1620147299276" duration="812000" />
+      <workItem from="1620227060820" duration="264000" />
+      <workItem from="1620227994236" duration="2909000" />
     </task>
     <task id="LOCAL-00001" summary="Authorization and registration, back-end &amp; front-end">
       <created>1618206083993</created>
@@ -155,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619007943381</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Transfers, week 5">
+      <created>1619609885432</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619609885432</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +199,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Authorization and registration, back-end &amp; front-end" />
     <MESSAGE value="Home page back-end and front-end &amp; logout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home page back-end and front-end &amp; logout" />
+    <MESSAGE value="Transfers, week 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transfers, week 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

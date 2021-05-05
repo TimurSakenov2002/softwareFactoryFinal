@@ -22,8 +22,7 @@ public class AccountController {
 	
 	@Autowired
 	private AccountService accountService;
-
-
+	
 	@RequestMapping("/primaryAccount")
 	public String primaryAccount(Model model, Principal principal) {
 		User user = userService.findByUsername(principal.getName());
@@ -43,7 +42,22 @@ public class AccountController {
 
         return "savingsAccount";
     }
+	
+	@RequestMapping(value = "/deposit", method = RequestMethod.GET)
+    public String deposit(Model model) {
+        model.addAttribute("accountType", "");
+        model.addAttribute("amount", "");
 
+        return "deposit";
+    }
+
+    @RequestMapping(value = "/deposit", method = RequestMethod.POST)
+    public String depositPOST(@ModelAttribute("amount") String amount, @ModelAttribute("accountType") String accountType, Principal principal) {
+        accountService.deposit(accountType, Double.parseDouble(amount), principal);
+
+        return "redirect:/userFront";
+    }
+    
     @RequestMapping(value = "/withdraw", method = RequestMethod.GET)
     public String withdraw(Model model) {
         model.addAttribute("accountType", "");

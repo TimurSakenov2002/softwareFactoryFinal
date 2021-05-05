@@ -39,4 +39,5 @@ public class SavingsAccount {
     public void setAccountBalance(BigDecimal accountBalance) {
         this.accountBalance = accountBalance;
     }
+
 }

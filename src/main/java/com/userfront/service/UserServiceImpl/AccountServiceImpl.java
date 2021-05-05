@@ -26,6 +26,7 @@ public class AccountServiceImpl implements AccountService {
     @Autowired
     private UserService userService;
 
+
     public PrimaryAccount createPrimaryAccount() {
         PrimaryAccount primaryAccount = new PrimaryAccount();
         primaryAccount.setAccountBalance(new BigDecimal(0.0));
@@ -45,7 +46,21 @@ public class AccountServiceImpl implements AccountService {
 
         return savingsAccountDao.findByAccountNumber(savingsAccount.getAccountNumber());
     }
+    
+    public void deposit(String accountType, double amount, Principal principal) {
+        User user = userService.findByUsername(principal.getName());
 
+        if (accountType.equalsIgnoreCase("Primary")) {
+            PrimaryAccount primaryAccount = user.getPrimaryAccount();
+            primaryAccount.setAccountBalance(primaryAccount.getAccountBalance().add(new BigDecimal(amount)));
+            primaryAccountDao.save(primaryAccount);
+
+        } else if (accountType.equalsIgnoreCase("Savings")) {
+            SavingsAccount savingsAccount = user.getSavingsAccount();
+            savingsAccount.setAccountBalance(savingsAccount.getAccountBalance().add(new BigDecimal(amount)));
+            savingsAccountDao.save(savingsAccount);
+        }
+    }
     
     public void withdraw(String accountType, double amount, Principal principal) {
         User user = userService.findByUsername(principal.getName());

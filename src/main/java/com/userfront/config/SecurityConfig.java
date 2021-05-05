@@ -20,11 +20,13 @@ import com.userfront.service.UserServiceImpl.UserSecurityService;
 @EnableGlobalMethodSecurity(prePostEnabled=true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
+//    @Autowired
+//    private Environment env;
 
     @Autowired
     private UserSecurityService userSecurityService;
 
-    private static final String SALT = "salt";
+    private static final String SALT = "salt"; // Salt should be protected carefully
 
     @Bean
     public BCryptPasswordEncoder passwordEncoder() {
@@ -48,6 +50,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests().
+//                antMatchers("/**").
                 antMatchers(PUBLIC_MATCHERS).
                 permitAll().anyRequest().authenticated();
 
@@ -64,6 +67,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+//    	 auth.inMemoryAuthentication().withUser("user").password("password").roles("USER"); //This is in-memory authentication
         auth.userDetailsService(userSecurityService).passwordEncoder(passwordEncoder());
     }
 

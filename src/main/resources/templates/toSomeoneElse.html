@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="common/header :: common-header"/>
+<body roleId="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<head th:replace="common/header :: navbar"/>
+<div class="container main">
+    <div class="row">
+        <div class="col-md-4">
+            <form th:action="@{/transfer/toSomeoneElse}" method="post">
+                <div class="form-group" >
+                    <h3><label for="recipientName" style="color: black">Choose the recipient:</label></h3>
+                    <select class="form-control" th:value="${recipientName}"  name="recipientName" id="recipientName" required="required">
+                        <option disabled="disabled" selected="selected"> --Select the recipient-- </option>
+                        <option data-th-each="eachRecipient : ${recipientList}" data-th-text="${eachRecipient.name}"></option>
+                    </select>
+                    <br />
+                </div>
+
+                <div class="form-group" >
+                    <h3><label for="accountType" style="color: black">From which account?</label></h3>
+                    <select class="form-control" th:value="${accountType}" name="accountType" id="accountType" required="required">
+                        <option disabled="disabled" selected="selected"> --Select your account-- </option>
+                        <option>Primary</option>
+                        <option>Savings</option>
+                    </select>
+                    <br />
+                </div>
+
+                <div class="form-group">
+                    <h3><label style="color: black">Amount: </label></h3>
+                    <input th:value="${amount}" type="text" name="amount" id="amount" class="form-control" aria-label="Amount (to the nearest dollar)"/>
+                </div>
+
+                <input type="hidden"
+                       name="${_csrf.parameterName}"
+                       value="${_csrf.token}"/>
+
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Transfer</button>
+            </form>
+
+            <div class="col-md-6">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div th:replace="common/header :: body-bottom-scripts"/>
+
+</body>
+</html>

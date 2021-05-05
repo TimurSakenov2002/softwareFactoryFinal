@@ -1,6 +1,5 @@
 package com.userfront.service.UserServiceImpl;
 
-
 import java.util.Set;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -32,7 +31,6 @@ public class UserServiceImpl implements UserService {
     
     @Autowired
     private AccountService accountService;
-
 
     public User findByUsername(String username) {
         return userDao.findByUsername(username);
