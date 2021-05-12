@@ -1210,21 +1210,21 @@ SELECT|sys.sys_config
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="354" parent="294" name="phone">
+    <column id="354" parent="294" name="username">
       <Position>7</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="355" parent="294" name="username">
+    <column id="355" parent="294" name="primary_account_id">
       <Position>8</Position>
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>bigint|0s</DataType>
     </column>
-    <column id="356" parent="294" name="primary_account_id">
+    <column id="356" parent="294" name="savings_account_id">
       <Position>9</Position>
       <DataType>bigint|0s</DataType>
     </column>
-    <column id="357" parent="294" name="savings_account_id">
+    <column id="357" parent="294" name="phone">
       <Position>10</Position>
-      <DataType>bigint|0s</DataType>
+      <DataType>varchar(255)|0s</DataType>
     </column>
     <index id="358" parent="294" name="UK_ob8kqyqqgmefl0aco34akdtpe">
       <ColNames>email</ColNames>

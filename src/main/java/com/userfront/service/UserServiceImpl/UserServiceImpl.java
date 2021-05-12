@@ -1,12 +1,16 @@
 package com.userfront.service.UserServiceImpl;
 
+import java.util.List;
 import java.util.Set;
+
+import com.userfront.controller.UserController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
 import com.userfront.dao.RoleDao;
 import com.userfront.dao.UserDao;
 import com.userfront.domain.User;
@@ -14,12 +18,14 @@ import com.userfront.domain.security.UserRole;
 import com.userfront.service.AccountService;
 import com.userfront.service.UserService;
 
+import javax.validation.constraints.NotNull;
+
 @Service
 @Transactional
 public class UserServiceImpl implements UserService {
-	
+
 	private static final Logger LOG = LoggerFactory.getLogger(UserService.class);
-	
+
 	@Autowired
 	private UserDao userDao;
 	
@@ -87,5 +93,9 @@ public class UserServiceImpl implements UserService {
         }
 
         return false;
+    }
+
+    public User saveUser (User user) {
+        return userDao.save(user);
     }
 }

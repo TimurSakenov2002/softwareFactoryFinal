@@ -7,22 +7,29 @@
     <div class="row">
         <div class="col-lg-6 col-md-6">
             <div class="panel panel-success">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <h2><b>Savings Balance: </b></h2>
-                        </div>
-                        <div class="col-md-10">
-                            <h3><span th:text="${savingsAccount.accountBalance}">...</span></h3>
-                        </div>
+
+                <div class="row">
+                    <div class="col-xs-6">
+                        <h3><b>Savings Balance: </b></h3>
                     </div>
+                    <div class="col-md-10">
+                        <h3><span th:text="${savingsAccount.accountBalance}">...</span></h3>
+                    </div>
+                </div>
+
+                <a th:href="@{/account/savingsAccount}">
                     <div class="panel-footer">
+                        <span class="pull-left"><b>View info</b></span>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                         <div class="clearfix"></div>
                     </div>
+                </a>
             </div>
         </div>
     </div>
 
+
+    <!-- /.row -->
 
     <div class="table-responsive">
         <table class="table table-bordered table-hover table-striped">
@@ -36,11 +43,22 @@
                 <th>Available Balance</th>
             </tr>
             </thead>
+            <tbody>
+            <tr data-th-each="savingsTransaction : ${savingsTransactionList}">
+                <td data-th-text="${savingsTransaction.date}">...</td>
+                <td data-th-text="${savingsTransaction.description}">...</td>
+                <td data-th-text="${savingsTransaction.type}">...</td>
+                <td data-th-text="${savingsTransaction.status}">...</td>
+                <td data-th-text="${savingsTransaction.amount}">...</td>
+                <td data-th-text="${savingsTransaction.availableBalance}">...</td>
+            </tr>
+            </tbody>
         </table>
     </div>
 </div>
 
 
 <div th:replace="common/header :: body-bottom-scripts"/>
+
 </body>
 </html>
