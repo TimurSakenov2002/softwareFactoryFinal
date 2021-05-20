@@ -3,7 +3,6 @@ package com.userfront.service.UserServiceImpl;
 import java.util.List;
 import java.util.Set;
 
-import com.userfront.controller.UserController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,14 +17,12 @@ import com.userfront.domain.security.UserRole;
 import com.userfront.service.AccountService;
 import com.userfront.service.UserService;
 
-import javax.validation.constraints.NotNull;
-
 @Service
 @Transactional
 public class UserServiceImpl implements UserService {
-
+	
 	private static final Logger LOG = LoggerFactory.getLogger(UserService.class);
-
+	
 	@Autowired
 	private UserDao userDao;
 	
@@ -37,6 +34,10 @@ public class UserServiceImpl implements UserService {
     
     @Autowired
     private AccountService accountService;
+	
+	public void save(User user) {
+        userDao.save(user);
+    }
 
     public User findByUsername(String username) {
         return userDao.findByUsername(username);
@@ -97,5 +98,23 @@ public class UserServiceImpl implements UserService {
 
     public User saveUser (User user) {
         return userDao.save(user);
+    }
+    
+    public List<User> findUserList() {
+        return userDao.findAll();
+    }
+
+    public void enableUser (String username) {
+        User user = findByUsername(username);
+        user.setEnabled(true);
+        userDao.save(user);
+    }
+
+    public void disableUser (String username) {
+        User user = findByUsername(username);
+        user.setEnabled(false);
+        System.out.println(user.isEnabled());
+        userDao.save(user);
+        System.out.println(username + " is disabled.");
     }
 }

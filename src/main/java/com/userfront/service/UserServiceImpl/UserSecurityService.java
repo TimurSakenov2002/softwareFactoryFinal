@@ -14,7 +14,6 @@ import com.userfront.domain.User;
 @Service
 public class UserSecurityService implements UserDetailsService {
 
-    @Autowired
     private static final Logger LOG = LoggerFactory.getLogger(UserSecurityService.class);
 
     @Autowired

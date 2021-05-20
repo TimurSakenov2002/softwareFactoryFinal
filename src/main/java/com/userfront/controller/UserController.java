@@ -12,8 +12,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.userfront.domain.User;
 import com.userfront.service.UserService;
 
-import javax.validation.constraints.NotNull;
-
 @Controller
 @RequestMapping("/user")
 public class UserController {
@@ -33,11 +31,11 @@ public class UserController {
     @RequestMapping(value = "/profile", method = RequestMethod.POST)
     public String profilePost(@ModelAttribute("user") User newUser, Model model) {
         User user = userService.findByUsername(newUser.getUsername());
-
         user.setUsername(newUser.getUsername());
         user.setFirstName(newUser.getFirstName());
         user.setLastName(newUser.getLastName());
         user.setEmail(newUser.getEmail());
+        user.setPhone(newUser.getPhone());
 
         model.addAttribute("user", user);
 

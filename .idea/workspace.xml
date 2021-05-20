@@ -4,41 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b14270ee-a196-4453-9c69-bc1b873be11b" name="Default Changelist" comment="All transfers and recipient, week 6">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7bb48e70-0dbf-4a77-81ae-2885a925b50f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7bb48e70-0dbf-4a77-81ae-2885a925b50f.xml" afterDir="false" />
+    <list default="true" id="b14270ee-a196-4453-9c69-bc1b873be11b" name="Default Changelist" comment="Actions history &amp; profile page, week 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/PrimaryAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/PrimaryAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/PrimaryTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/PrimaryTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/SavingsAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/SavingsTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/SavingsTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/TransactionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/TransactionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/TransactionServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/UserSecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/UserSecurityService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userfront/service/UserServiceImpl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/primaryAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/primaryAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/savingsAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/savingsAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/controller/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/controller/AccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/domain/PrimaryAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/domain/PrimaryAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/domain/PrimaryTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/domain/PrimaryTransaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/domain/SavingsAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/domain/SavingsAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/domain/SavingsTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/domain/SavingsTransaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/service/TransactionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/service/TransactionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/AccountServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/TransactionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/TransactionServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/UserSecurityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/UserSecurityService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/userfront/service/UserServiceImpl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/primaryAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/primaryAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/savingsAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/savingsAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userFront.iml" beforeDir="false" afterPath="$PROJECT_DIR$/userFront.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -97,6 +70,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager" selected="Spring Boot.UserFrontApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="userFront.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/userFront/templates/userFront.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -143,7 +127,9 @@
       <workItem from="1620727031773" duration="232000" />
       <workItem from="1620737781497" duration="12000" />
       <workItem from="1620847678350" duration="2650000" />
-      <workItem from="1620850365728" duration="2568000" />
+      <workItem from="1620850365728" duration="2631000" />
+      <workItem from="1621179334111" duration="37000" />
+      <workItem from="1621483898643" duration="1245000" />
     </task>
     <task id="LOCAL-00001" summary="Authorization and registration, back-end &amp; front-end">
       <created>1618206083993</created>
@@ -180,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620231000812</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Actions history &amp; profile page, week 7">
+      <created>1620853004738</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620853004738</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +196,8 @@
     <MESSAGE value="Home page back-end and front-end &amp; logout" />
     <MESSAGE value="Transfers, week 5" />
     <MESSAGE value="All transfers and recipient, week 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="All transfers and recipient, week 6" />
+    <MESSAGE value="Actions history &amp; profile page, week 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actions history &amp; profile page, week 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
